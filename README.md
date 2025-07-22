@@ -138,20 +138,13 @@ blockdag-lens-explorer/
 ## 🐳 Docker Commands
 
 ```bash
-# Start all services
-docker-compose up -d
+# backend
+cd ./mock-backend
 
-# View logs
-docker-compose logs -f
+cd ./frontend
 
-# Stop services
-docker-compose down
 
-# Rebuild and restart
-docker-compose up --build
-
-# View service status
-docker-compose ps
+npm start
 ```
 
 ## 🔧 Configuration
